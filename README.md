@@ -1,2 +1,3 @@
 # Rock-Paper-Scissor
-Implementation of rock-paper-scissor
+
+I've implemented the most familiar game rock-paper-scissor from scratch.
