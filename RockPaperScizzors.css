@@ -1,0 +1,58 @@
+html{
+      background-color: gainsboro;
+}
+body{
+  margin-top: 100px;
+}
+.btn > *, #Refresh_Round{
+  padding: 7px;
+  margin: 7px;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: coral;
+  border-radius: 15px;
+}
+.main{
+  border: 2px solid;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+    background-color: gold;
+    font-family: cursive;
+    border-radius: 90px;
+}
+h1,h3,.btn,#accounceWinner {
+  display: flex;
+  justify-content: center;
+
+}
+#rock_btn:hover,#paper_btn:hover,#scissor_btn:hover,#Refresh_Round:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+#Refresh_Round{
+  display: flex;
+  margin: auto;
+  margin-bottom: 21.440px;
+}
+p{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: -10px;
+  font-size: 20px;
+}
+#accounceWinner{
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.players{
+    display: flex;
+    width: 30w;
+    justify-content: space-evenly;
+    top: 70px;
+    z-index: 1;
+}
